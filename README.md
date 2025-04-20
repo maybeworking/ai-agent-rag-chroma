@@ -14,28 +14,26 @@
 ## langchain: 
 
 Documents:
-https://python.langchain.com/v0.1/docs/modules/data_connection/document_loaders/
+https://python.langchain.com/docs/how_to/#document-loaders
 
 ````
 documents = load_documents()
 print(documents[0])
 ````
-
-other references on doc loaders:
-- https://python.langchain.com/docs/how_to/#document-loaders
-
-
 How to load: 
-- https://python.langchain.com/docs/how_to/document_loader_pdf/
+- https://python.langchain.com/docs/integrations/document_loaders/
 
 Version migrations: 
 I used langchain-cli migrate
 https://python.langchain.com/docs/versions/v0_2/
 
-## Ollama
+## Langchain & Ollama utalized
 
-Open-source model: llamma3.2 etc
-embeded: mxbai-embed-large
-
+Langchain: https://python.langchain.com/docs/integrations/text_embedding/ollama/
+Embedding models: https://ollama.com/blog/embedding-models
 embed-model: https://ollama.com/library/mxbai-embed-large
-More about embedding models: https://ollama.com/blog/embedding-models
+
+Langchain: https://python.langchain.com/docs/integrations/chat/ollama/
+Ollama: https://ollama.com/
+Open-source model: https://ollama.com/library/gemma2
+ 
